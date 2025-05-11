@@ -13,3 +13,13 @@ body {
     padding: 5px 15px;
     border-radius:16px;
 }
+button{
+    border-radius:10px;
+    background-color:rgb(154, 224, 176);
+    cursor: pointer;
+    transition: background-color 0.4s ease, transform 0.3s ease;
+}
+.button:hover {
+  background-color:rgb(42, 137, 71); 
+  transform: scale(2.05);
+}
